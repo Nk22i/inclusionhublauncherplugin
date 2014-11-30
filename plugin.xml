@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="org.devgirl.calendar"
+      version="0.1.0">
+    <name>LauncherPlugin</name>
+    <description>Inclusion Hub Launcher App Native Interface</description>
+    <license>MIT</license>
+    <keywords>phonegap,launcher</keywords>
+ 
+ 
+    <js-module src="www/launcherPlugin.js" name="LauncherPlugin">
+        <clobbers target="window.LauncherPlugin" />
+    </js-module>
+ 
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="LauncherPlugin">
+                <param name="android-package" value="com.inclusionhub.launcherplugin"/>
+            </feature>
+        </config-file>
+ 
+        <source-file src="src/android/launcherPlugin.java" target-dir="src/com/inclusionhub/launcherplugin" />      
+        <source-file src="src/android/AppDetail.java" target-dir="src/com/inclusionhub/launcherplugin" />      
+
+     </platform>          
+</plugin>
