@@ -21,8 +21,8 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/launcherPlugin.java" target-dir="src/com/inclusionhub/launcherplugin" />      
-        <source-file src="src/android/AppDetail.java" target-dir="src/com/inclusionhub/launcherplugin" />      
+        <source-file src="src/launcherPlugin.java" target-dir="src/com/inclusionhub/launcherplugin" />      
+        <source-file src="src/AppDetail.java" target-dir="src/com/inclusionhub/launcherplugin" />      
 
      </platform>          
 </plugin>
