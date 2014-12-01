@@ -17,7 +17,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="LauncherPlugin">
-                <param name="android-package" value="com.inclusionhub.launcherplugin"/>
+                <param name="android-package" value="com.inclusionhub.launcherplugin.LauncherPlugin"/>
             </feature>
         </config-file>
  
