@@ -7,7 +7,7 @@ var launcherPlugin = {
             'LauncherPlugin', // mapped to our native Java class called "Calendar"
             'getInstalledApps', // with this action name
             [{              // and this array of custom arguments to create our entry
-            	"title": title,
+            	"title": "SIIII PAPA",
             }]
         ); 
 	}
